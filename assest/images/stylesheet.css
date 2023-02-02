@@ -1,37 +1,138 @@
+body{
+   background-color: #faf9f6 ;
+}
 header{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 padding: 15px;
 background-color: #885a3a;
 color: #dbd0bd;
 }
+
 header h1  {
    display: inline-block;
     }
 
-    header nav{
+ header nav{
         float: right;
      }
 
-    header nav ul {
+header nav ul {
       padding: 15px;
       margin-right: 25px;
       float: right;
-      font-size: 25px;
+      font-size: 15px;
       list-style: none;
   }
 
-  header ul, li, a{
+header ul, li, a{
     display: inline;
     }
-  header a{
+header a{
    color: #dbd0bd;
   padding: 20px;
    list-style: none;
   }
 
-    header ul, li, a{
+header ul, li, a{
     display: inline;
     }
-     a:hover{
+a:hover{
         color: #84735e;
         }
+        .float-left{
+            float:left;
+            margin-right: 25px;
+            width: 30%;
+          }
+          .float-left-2{
+            float: left;
+            margin: 20px;
+          }
+          aside{
+            border: #84735e 10px solid;
+            overflow: hidden;
+            padding: 10px;
+          margin: 10px 10px ;
+          width: 96%;
+          height: 350px;
+    
+       
+          }
+h{
+border: black 5px solid;
+float: left;
+
+
+}
+img{
+    height:100%;
+    width: auto;
+}
+
+
+p{ 
+    
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font:2.5vw;  
+}
+.container{
+    border: palevioletred 10px solid;
+    display: flex , inline;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: stretch;
+}
+.project ul, li{
+display: block;
+}
+h3 a, img{
+    width: 30%;
+    height: auto;
+}
+h3 a,#frist-img{
+    width: 50%;
+    height:auto;
+}
+.project{
+    border: 5px #885a3a solid;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    flex: 2 0 100px;
+  
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0px;
+    background-color: #885a3a;
+    color: #dbd0bd;
+    border: #885a3a 5px solid;
+    overflow: hidden;
+    font-size: 15px;
+    }
+    
+footer h2  {
+       display: inline-block;
+        }
+    
+
+footer  ul {
+          padding: 15px;
+          margin-right: 25px;
+          float: right;
+         
+      }
+    
+  footer ul, li, a{
+        display: inline;
+        }
+ footer a{
+       color: #dbd0bd;
+      padding: 20px;
+      }
+      a :hover{
+        color: #84735e;
+        cursor: grab;
+      }
