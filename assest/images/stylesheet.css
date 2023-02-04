@@ -1,11 +1,13 @@
 body{
    background-color: #faf9f6 ;
+ 
 }
 header{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 padding: 15px;
+background-image: url(background.jpg);
 background-color: #885a3a;
-color: #dbd0bd;
+color: #885a3a;
 }
 
 header h1  {
@@ -28,7 +30,7 @@ header ul, li, a{
     display: inline;
     }
 header a{
-   color: #dbd0bd;
+   color: #885a3a;
   padding: 20px;
    list-style: none;
   }
@@ -36,12 +38,10 @@ header a{
 header ul, li, a{
     display: inline;
     }
-a:hover{
-        color: #84735e;
-        }
-        .float-left{
+
+        .float-left {
             float:left;
-            margin-right: 25px;
+            margin-right: 20px;
             width: 30%;
           }
           .float-left-2{
@@ -58,57 +58,66 @@ a:hover{
     
        
           }
-h{
-border: black 5px solid;
-float: left;
-
-
-}
-img{
-    height:100%;
+aside img{
+    height:100% ;
     width: auto;
+    padding:10px 0px 1;
+    border: black 4px solid;
+    border-radius:50px 50px  ;
 }
 
 
 p{ 
     
-    color: purple;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font:2.5vw;  
+    font-size: 3vh;  
+}
+
+ .aboutMe h2   {
+     font-size: 4vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .container{
-    border: palevioletred 10px solid;
-    display: flex , inline;
+    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: flex-start;
-   align-items: stretch;
 }
-.project ul, li{
-display: block;
+
+.container ul{
+font-size: 20px;
+justify-content: center;
+align-items: center;
+display:block;
+padding: 10px;
+text-align: center;
+border-style: solid;
+border-width: 1px;
 }
 h3 a, img{
-    width: 30%;
+    width: 50vh;
     height: auto;
+    float: inline-start;
 }
-h3 a,#frist-img{
-    width: 50%;
-    height:auto;
-}
+
+
 .project{
-    border: 5px #885a3a solid;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-    flex: 2 0 100px;
-  
+    border: #885a3a 2px solid; 
+    margin: 10px 10px;
+    padding: 20px 10px;
+    display: inline-block; 
 }
+ .project ul li{
+    display: block;
+
+}
+
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px 0px;
     background-color: #885a3a;
     color: #dbd0bd;
-    border: #885a3a 5px solid;
     overflow: hidden;
     font-size: 15px;
     }
@@ -130,9 +139,61 @@ footer  ul {
         }
  footer a{
        color: #dbd0bd;
-      padding: 20px;
       }
-      a :hover{
+    
+  
+      @media screen (max-width: 992px){
+        header {
+            background: pink;
+     
+          }
+        p{ 
+    
+            color: black;
+            font-family:serif;
+            font-size: 2px;  
+        }
+ #top2{
+    position:relative;  left: 0px;
+ }
+         #bottom3{
+            position:relative; left: 200px;
+        }
+         }
+        
+      }
+      @media screen and (max-width: 768px) {
+        nav {
+          background-color: #dbd0bd;
+        }
+      
+        header {
+            color: #dbd0bd;
+          background: #885a3a;
+        }
+        div{
+            width:25%
+        }
+      
+      }
+      @media screen and (max-width: 576px) {
+       
+        header {
+          background: #885a3a;
+          color: #dbd0bd;
+   
+        }
+        header ul a{
+            float:left;
+            display: inline-block;
+            padding: 5px;
+        }
+        aside{
+            border: #84735e 3px solid;
+            overflow: hidden;
+          }
+
+      }
+      a:hover{
         color: #84735e;
-        cursor: grab;
-      }
+        }
