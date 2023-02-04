@@ -142,26 +142,10 @@ footer  ul {
       }
     
   
-      @media screen (max-width: 992px){
-        header {
-            background: pink;
-     
-          }
-        p{ 
-    
-            color: black;
-            font-family:serif;
-            font-size: 2px;  
-        }
- #top2{
-    position:relative;  left: 0px;
- }
-         #bottom3{
-            position:relative; left: 200px;
-        }
-         }
+      @media screen (max-width: 992px)
+ 
         
-      }
+
       @media screen and (max-width: 768px) {
         nav {
           background-color: #dbd0bd;
@@ -174,6 +158,10 @@ footer  ul {
         div{
             width:25%
         }
+    p{    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vh;  
+}
       
       }
       @media screen and (max-width: 576px) {
@@ -192,6 +180,10 @@ footer  ul {
             border: #84735e 3px solid;
             overflow: hidden;
           }
+        p{ color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vh;  
+}
 
       }
       a:hover{
